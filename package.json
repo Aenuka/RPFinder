@@ -1,0 +1,31 @@
+{
+  "name": "rpfinder",
+  "version": "1.0.0",
+  "description": "RP (Research Project) member finder with MERN MVC architecture",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test": "echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aenuka/RPFinder.git"
+  },
+  "keywords": [
+    "mern",
+    "mvc",
+    "research-project",
+    "finder"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aenuka/RPFinder/issues"
+  },
+  "homepage": "https://github.com/Aenuka/RPFinder#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
